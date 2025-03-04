@@ -5,15 +5,18 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     
-    void Start()
+ public static GameManager Instance {get; private set;}
+
+    private void Awake()
     {
-        
+        Instance = this;
     }
 
-  
-    void Update()
+    public void GameOver()
     {
-        
+        Debug.Log("Game Over");
+        Time.timeScale = 0;
     }
+
 }
 

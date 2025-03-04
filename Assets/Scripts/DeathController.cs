@@ -9,7 +9,7 @@ public class DeathController : MonoBehaviour
     {
         if(other.transform.CompareTag("Player"))
         {
-            Debug.Log("Game Over");
+           GameManager.Instance.GameOver();
         }
     }
 
