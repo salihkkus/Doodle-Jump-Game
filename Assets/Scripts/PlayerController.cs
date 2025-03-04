@@ -28,6 +28,8 @@ public class PlayerController : MonoBehaviour
         {
             spriteRenderer.flipX = input < 0;
         }
+
+        GameManager.Instance.Score = (int)transform.position.y;
     }
 
     void FixedUpdate()
