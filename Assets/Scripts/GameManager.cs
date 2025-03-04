@@ -6,7 +6,10 @@ public class GameManager : MonoBehaviour
 {
     
  public static GameManager Instance {get; private set;}
+ public int Score { get => _score;
+  set; }
 
+ private int _score; 
     private void Awake()
     {
         Instance = this;
