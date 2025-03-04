@@ -134,6 +134,7 @@ GameObject:
   - component: {fileID: 178015190}
   - component: {fileID: 178015189}
   - component: {fileID: 178015191}
+  - component: {fileID: 178015192}
   m_Layer: 0
   m_Name: Platform
   m_TagString: Untagged
@@ -253,6 +254,19 @@ EdgeCollider2D:
   m_AdjacentEndPoint: {x: 0, y: 0}
   m_UseAdjacentStartPoint: 0
   m_UseAdjacentEndPoint: 0
+--- !u!114 &178015192
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 178015188}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54c69e6a5c08d7d4387fe74ee3afcdc7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  force: 5
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -612,9 +626,10 @@ GameObject:
   - component: {fileID: 1483275859}
   - component: {fileID: 1483275858}
   - component: {fileID: 1483275861}
+  - component: {fileID: 1483275862}
   m_Layer: 0
   m_Name: Doodler
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -758,6 +773,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.1237035, y: 0.14107287}
   m_EdgeRadius: 0
+--- !u!114 &1483275862
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1483275857}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a3feca486fc3c54db29dcf049c66f99, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rb: {fileID: 1483275858}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
