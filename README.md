@@ -64,6 +64,7 @@ Pull requests are **welcome**! 🚀 For major changes, please open an issue firs
 ---
 
 ## 🖼 Screenshots
+![Paragraf metniniz](https://github.com/user-attachments/assets/83da1208-f20a-48ec-b237-6ec324ce26e1)
 
 
 ---
