@@ -1,63 +1,77 @@
-Doodle Jump Clone
+# 🎮 Doodle Jump Clone
 
-A simple 2D platform jumping game developed in Unity, inspired by the classic Doodle Jump.
+A **simple** and **fun** 2D platform jumping game developed in Unity, inspired by the classic *Doodle Jump*! 🚀
 
-Features
+---
 
-Randomly generated platforms
+## ✨ Features
+✅ Randomly generated platforms  
+✅ Increasing difficulty over time  
+✅ Various types of platforms *(static, moving, disappearing, etc.)*  
+✅ Player movement using **accelerometer** or **keyboard input**  
+✅ Score tracking and high score system  
+✅ Addictive gameplay mechanics 🎯  
 
-Increasing difficulty over time
+---
 
-Various types of platforms (static, moving, disappearing, etc.)
+## 🛠 Technologies Used
+- 🎮 **Unity Engine**
+- 💻 **C# for scripting**
+- ⚙️ **Unity Physics System**
 
-Player character movement using accelerometer or keyboard input
+---
 
-Score tracking and high score system
+## 🚀 Installation & Running the Game
 
-Simple and fun gameplay mechanics
+```sh
+# Clone the repository
+$ git clone https://github.com/salihkkus/doodle-jump-clone.git
 
-Technologies Used
+# Open the project in Unity
+# Press the Play button in the Unity Editor to test the game
+```
 
-Unity Engine
+➡️ *(Optional: Build the game for your desired platform from `File > Build Settings`.)*
 
-C# for scripting
+---
 
-Unity Physics System
+## 🎮 Controls
+🕹 **PC:**  
+➡️ **Arrow Keys / A & D** - Move left & right  
+🔼 **Spacebar** - Jump *(if needed for special mechanics)*  
 
-Installation & Running the Game
+📱 **Mobile:**  
+📱 **Tilt your device** - Move left & right  
 
-Clone the repository:
+---
 
-git clone https://github.com/salihkkus/Doodle-Jump-Game.git
+## 📌 Roadmap
+- [ ] 🏆 Add enemies and power-ups  
+- [ ] 🎨 Implement different themes and skins  
+- [ ] 📊 Leaderboard integration  
+- [ ] 📱 Mobile optimization and deployment  
 
-Open the project in Unity.
+---
 
-Press the Play button in the Unity Editor to test the game.
+## 🤝 Contributing
+Pull requests are **welcome**! 🚀 For major changes, please open an issue first to discuss what you would like to change.
 
-(Optional) Build the game for your desired platform from File > Build Settings.
+---
 
-Controls
+## 📜 License
+📝 This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
 
-Arrow Keys / A & D: Move left and right
+---
 
-Spacebar: Jump (if needed for special mechanics)
-
-Accelerometer (Mobile): Tilt to move left or right
-
-Roadmap
+## 🖼 Screenshots
 
 
+---
 
-Contributing
+## 📧 Contact
+For any inquiries, feel free to reach out via:
+- **GitHub**: [salihkkus](https://github.com/salihkkus)
+- **Email**: sskarakussalih77@gmail.com
 
-Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
+🚀 Happy Jumping! 🎮
 
-License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-Screenshots
-
-Contact
-
-For any inquiries, feel free to contact me via GitHub or sskarakussalih77@gmail.com
